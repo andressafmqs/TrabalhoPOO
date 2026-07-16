@@ -15,8 +15,5 @@ public class Peao extends Pessoa {
     public void setSetor(String setor) {
         this.setor = setor;
     }
-
-    public String desempenharFuncao() {
-        return "Realizando tarefas de campo no setor: " + setor;
-    }
+    
 }
