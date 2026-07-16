@@ -1,8 +1,8 @@
-import model.Animal;
-import model.Bovino;
-import model.Ovino;
-import model.Suino;
-import model.Ave;
+import Animais.Ave;
+import Animais.Bovino;
+import Animais.Ovino;
+import Animais.Suino;
+
 import java.util.ArrayList;
 import java.util.List;
 

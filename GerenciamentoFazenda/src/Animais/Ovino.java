@@ -1,6 +1,6 @@
-package model;
+package Animais;
 
-public class Ovino extends Animal implements ProdutorLa {
+public class Ovino extends Animal implements model.ProdutorLa {
 
     private double quantidadeLaDisponivel;
 

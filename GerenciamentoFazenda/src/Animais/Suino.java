@@ -1,4 +1,4 @@
-package model;
+package Animais;
 
 public class Suino extends Animal {
 
