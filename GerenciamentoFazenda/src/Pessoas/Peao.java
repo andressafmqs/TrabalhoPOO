@@ -1,3 +1,5 @@
+package Pessoas;
+
 public class Peao extends Pessoa {
 
     private String setor;

@@ -1,3 +1,5 @@
+package Animais;
+
 import java.io.Serializable;
 
 public abstract class Animal implements Serializable {
