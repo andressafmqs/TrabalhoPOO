@@ -3,6 +3,8 @@ import Pessoas.Peao;
 import Pessoas.Pessoa;
 import Pessoas.Veterinario;
 import model.CentroDeProducao;
+import model.ProdutorLa;
+import model.ProdutorLeite;
 
 import java.util.ArrayList;
 import java.util.List;
