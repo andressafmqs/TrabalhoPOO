@@ -15,7 +15,7 @@ public class Bovino extends Animal implements model.ProdutorLeite {
     }
 
     @Override
-    public double calcularCustoAlimentacao() {
+    public double calcularCustoAlimentacaoDiario() {
         if (getPeso() > 300) {
             return 12.00;
         } else {

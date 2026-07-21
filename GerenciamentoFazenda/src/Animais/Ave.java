@@ -12,7 +12,8 @@ public class Ave extends Animal {
     }
 
     @Override
-    public double calcularCustoAlimentacao() {
+    public double calcularCustoAlimentacaoDiario() {
+        // R$0,9/dia
         return 0.90;
     }
 }

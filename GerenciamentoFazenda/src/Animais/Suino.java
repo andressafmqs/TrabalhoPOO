@@ -12,7 +12,7 @@ public class Suino extends Animal {
     }
 
     @Override
-    public double calcularCustoAlimentacao() {
+    public double calcularCustoAlimentacaoDiario() {
         return 3.80;
     }
 }

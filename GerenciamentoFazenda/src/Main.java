@@ -3,8 +3,6 @@ import Pessoas.Peao;
 import Pessoas.Pessoa;
 import Pessoas.Veterinario;
 import model.CentroDeProducao;
-import model.ProdutorLa;
-import model.ProdutorLeite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +35,7 @@ public class Main {
         for (Animal animal : fazendaAnimais) {
             System.out.println("\n[ID: " + animal.getId() + "]");
             System.out.println("Som: " + animal.emitirSom());
-            System.out.println("Custo diário de alimentação: R$ " + animal.calcularCustoAlimentacao());
+            System.out.println("Custo diário de alimentação: R$ " + animal.calcularCustoAlimentacaoDiario());
 
             if (animal instanceof model.ProdutorLeite) {
                 model.ProdutorLeite produtor = (model.ProdutorLeite) animal;
